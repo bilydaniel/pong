@@ -30,6 +30,7 @@ type Game struct {
 func (g *Game) Update() error {
 
 	var d1, d2 int
+
 	if ebiten.IsKeyPressed(ebiten.KeyW) {
 		d1 -= 1
 	}
